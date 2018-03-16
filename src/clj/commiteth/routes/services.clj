@@ -20,7 +20,7 @@
             [crypto.random :as random]
             [clojure.set :refer [rename-keys]]
             [clojure.string :as str]))
-
+;; move to antarctica
 (defn add-bounties-for-existing-issues? []
   (env :add-bounties-for-existing-issues false))
 
