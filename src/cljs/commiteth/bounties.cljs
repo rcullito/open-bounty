@@ -11,7 +11,7 @@
             [commiteth.subscriptions :as subs]
             [commiteth.util :as util]))
 
-
+;; so we march on!
 (defn bounty-item [bounty]
   (let [{avatar-url   :repo_owner_avatar_url
          owner        :repo-owner
