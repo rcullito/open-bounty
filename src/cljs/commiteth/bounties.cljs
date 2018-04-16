@@ -35,7 +35,7 @@
       [:div.bounty-item-row
        [:div.time (human-time updated)]
        [:span.bounty-repo-label repo-link]]
-
+;; suuuuuure
       [:div.footer-row
        [:div.balance-badge "ETH " balance-eth]
        (for [[tla balance] tokens]
