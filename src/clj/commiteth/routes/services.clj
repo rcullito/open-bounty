@@ -34,7 +34,7 @@
 (defmethod restructure-param :auth-rules
   [_ rule acc]
   (update-in acc [:middleware] conj [wrap-restricted rule]))
-
+;; cheers man
 (defmethod restructure-param :current-user
   [_ binding acc]
   (update-in acc [:letks] into [binding `(:identity ~'+compojure-api-request+)]))
