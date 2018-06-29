@@ -9,7 +9,7 @@
             [commiteth.model.bounty :as bnt]
             [commiteth.util.png-rendering :as png-rendering]
             [clojure.tools.logging :as log]))
-
+;; revoke the device
 
 (def ^:const label-name "bounty")
 
