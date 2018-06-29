@@ -12,7 +12,7 @@
 
 
 (def ^:const label-name "bounty")
-
+;; this should fix solc
 ;; max number of issues allowed to be created per repo
 (def max-issues-limit 100)
 
